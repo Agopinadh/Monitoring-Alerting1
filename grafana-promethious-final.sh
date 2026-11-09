@@ -130,6 +130,7 @@ receivers:
     pagerduty_configs:
       - routing_key: "33e71df7e7084d05d0602b30bdc23e2a"
         severity: "critical"
+        send_resolved: true
 EOF
 
 # Main Prometheus Config (EC2 SD)
